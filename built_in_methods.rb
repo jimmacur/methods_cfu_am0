@@ -57,10 +57,48 @@ puts first_name.start_with?("J")
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+# Declares the variable int1 as the value 3 and int2 as 8
+int1 = 3
+int2 = 8
 
+# The == method compares the two variables to see if they are equal and prints the return value
+# The return value is false.
+puts int1 == int2
+
+# The * method multiples the two values of the variables int1 and int2 and prints the return value
+# The return value is 24
+puts int1*int2
+
+# The + method adds the two values of the variables int1 and int2 and prints the return value
+# The return value is 11
+puts int1+int2
+
+# The - method subtracts the value of int2 from int1 and prints the return value
+# The return value is negative 5
+puts int1-int2
+
+# The ** method solves for int1 to the power of int2 and prints the return value
+# The return value is 6561
+puts int1**int2
+
+# The / method divides int1 by int2. The .to_f method ensure that the answer shows a decimal if there is one and prints the return value
+# The return value is 0.375
+ puts int1/(int2.to_f)
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+# The declarative = instructs the variable hooray to be assigned the array including the strings yes, maybe, and no
+hooray = ["yes", "maybe", "no"]
+# The .count method counts how many elements are in the array hooray.
+# The puts method prints the result
+# The return value is 3
+puts hooray.count
+# The .push() method includes the new string "sometimes" at the end of the array hooray
+hooray.push("sometimes")
+# The print method prints the array hooray in a single line
+# The return value is ["yes", "maybe", "no", "sometimes"]
+print hooray
