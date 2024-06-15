@@ -72,9 +72,9 @@ def square(num)
 
 puts square(5)
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+# What is the return value of your method? 25
+# How many arguments did you pass your method? 1
+# What data type was your argument(s)? integer
 
 
 # 5: Write a method named "check_stock" that satisfies the following interaction pattern:
